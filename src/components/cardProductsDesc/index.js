@@ -27,6 +27,7 @@ import {
 } from '../../utils/style';
 
 const CardProductsDesc = ({ data }) => {
+	console.log('teste de console');
 	const [visibleModal, setVisible] = useState(false);
 	Numeral.locale('pt-br');
 	const thumbnail = data.imageObjects.filter(item => item.featured);
